@@ -25,6 +25,11 @@
     @apply font-semibold;
     font-size: 30px;
   }
+
+  .menu-fixed.active {
+    transition: 0.3s ease-in-out;
+    transform: translateX(0);
+  }
 }
 
 @layer utilities {

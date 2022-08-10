@@ -39,27 +39,32 @@
           <div class="relative z-10">
             <div class="flex items-center justify-between mb-6 lg:mb-[117px]">
               <span class="font-extrabold text-2xl">SmartSpace</span>
-              <span class="lg:hidden"><i class="fa-solid fa-bars text-3xl"></i></span>
+              <span id="btn-acitve-nav" class="lg:hidden"
+                ><i class="fa-solid fa-bars text-3xl"></i
+              ></span>
               <ul
-                class="hidden lg:grid grid-cols-6 gap-x-9 font-dm-sans text-[13px] font-bold"
+                id="header-nav"
+                class="fixed top-0 right-0 bottom-0 w-[300px] bg-white z-50 lg:static lg:w-auto lg:bg-transparent lg:grid grid-cols-6 gap-x-9 font-dm-sans text-[13px] font-bold transition-all translate-x-full lg:transition-none lg:translate-x-0 menu-fixed"
               >
-                <li><a href="#" class="underline">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="p-4 block text-center">Home</a></li>
+                <li><a href="#" class="p-4 block text-center">About</a></li>
+                <li><a href="#" class="p-4 block text-center">Service</a></li>
+                <li><a href="#" class="p-4 block text-center">Portfolio</a></li>
+                <li><a href="#" class="p-4 block text-center">Blog</a></li>
+                <li><a href="#" class="p-4 block text-center">Contact</a></li>
               </ul>
             </div>
             <div class="relative mb-6 lg:mb-36">
               <div class="max-w-3xl relative z-20">
                 <div class="md:max-w-[500px] md:pt-8 mb-12">
                   <p
-                    class="text-orange-ff font-dm-sans font-bold text-[22px] mb-6"
+                    class="text-orange-ff font-dm-sans font-bold text-[18px] md:text-[22px] mb-6"
                   >
                     RESIDENTIAL & OFFICE SPACES
                   </p>
-                  <h1 class="font-bold text-[54px] leading-[73px] mb-6">
+                  <h1
+                    class="font-bold text-[28px] lg:text-[54px] lg:leading-[73px] mb-6"
+                  >
                     Smart Living Style for Smart People
                   </h1>
                   <p class="text-gray-31">
@@ -113,7 +118,7 @@
               <div
                 class="w-[90px] h-[90px] bg-[#9672FF] rounded-3xl flex items-center justify-center mb-12"
               >
-                <img src="./assets/icon/icon-search.png"/>
+                <img src="./assets/icon/icon-search.png" />
               </div>
               <h3 class="font-semibold text-[22px] mb-4">Research Suburbs</h3>
               <p class="font-roboto">
@@ -121,7 +126,10 @@
                 cottage calling.
               </p>
             </div>
-            <img src="./assets/images/Group 19.png" class="mt-10 hidden lg:block" />
+            <img
+              src="./assets/images/Group 19.png"
+              class="mt-10 hidden lg:block"
+            />
             <div class="flex flex-col items-center text-center">
               <div
                 class="w-[90px] h-[90px] bg-[#4DDFFD] rounded-3xl flex items-center justify-center mb-12 border-shadow-icon-hands"
@@ -134,7 +142,10 @@
                 gravit and moonlight.
               </p>
             </div>
-            <img src="./assets/images/Group 20.png" class="mt-10 hidden lg:block" />
+            <img
+              src="./assets/images/Group 20.png"
+              class="mt-10 hidden lg:block"
+            />
             <div class="flex flex-col items-center text-center">
               <div
                 class="w-[90px] h-[90px] bg-[#F2B8EC] rounded-3xl flex items-center justify-center mb-12 border-shadow-icon-house"
@@ -174,7 +185,9 @@
             <div class="pb-3">Agriculture Property</div>
             <div class="pb-3">Industrial Property</div>
           </div>
-          <div class="flex flex-col lg:flex-row gap-x-7 gap-y-7 justify-between">
+          <div
+            class="flex flex-col lg:flex-row gap-x-7 gap-y-7 justify-between"
+          >
             <div class="relative">
               <img
                 src="./assets/images/Image 03.jpg"
@@ -234,7 +247,9 @@
           <h2 class="h2-title-mobile md:h2-title text-center mb-[95px]">
             Featured Listing of the Week
           </h2>
-          <div class="flex flex-col md:flex-row p-10 pb-20 bg-[#F1FFFF] gap-[77px]">
+          <div
+            class="flex flex-col md:flex-row p-10 pb-20 bg-[#F1FFFF] gap-[77px]"
+          >
             <div class="flex-1 relative max-w-[492px]">
               <img src="./assets/images/Mask Group.png" />
               <img
@@ -291,7 +306,9 @@
           <h2 class="h2-title max-w-[570px] mb-[51px]">
             Loved by businesses, and individuals across the globe.
           </h2>
-          <div class="flex flex-col lg:flex-row items-center justify-between gap-[30px] mb-20">
+          <div
+            class="flex flex-col lg:flex-row items-center justify-between gap-[30px] mb-20"
+          >
             <div
               class="flex flex-col border border-[#EBEBEB] max-w-[380px] max-h-[367px] rounded-[10px] py-[52px] px-[38px] gap-y-[33px]"
             >
@@ -342,7 +359,9 @@
               </div>
             </div>
           </div>
-          <div class="grid grid-cols-3 gap-y-4 lg:grid-cols-6 items-center gap-x-2 px-[35px]">
+          <div
+            class="grid grid-cols-3 gap-y-4 lg:grid-cols-6 items-center gap-x-2 px-[35px]"
+          >
             <img src="./assets/icon/Vector.png" />
             <img src="./assets/icon/Vector (1).png" />
             <img src="./assets/icon/Vector (2).png" />
@@ -406,4 +425,17 @@
       </section>
     </div>
   </body>
+  <script>
+    const nav = document.getElementById("header-nav");
+    const btn = document.getElementById("btn-acitve-nav");
+    console.log(btn);
+    btn.addEventListener("click", () => {
+      nav.classList.add("active");
+    });
+    nav.addEventListener("click", () => {
+      if (nav.classList.contains("active")) {
+        nav.classList.remove("active");
+      }
+    });
+  </script>
 </html>
